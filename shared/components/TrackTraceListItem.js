@@ -1,8 +1,8 @@
 import React from 'react-native';
-const {StyleSheet, Text, View, Image, TouchableHighlight} = React;
-import  {MKButton} from 'react-native-material-kit';
-
+import ProgressIndicator from './ProgressIndicator.js';
 import Button from './Button.js';
+
+const {StyleSheet, Text, View, Image} = React;
 
 class TrackTraceListItem extends React.Component {
   constructor() {
@@ -12,7 +12,8 @@ class TrackTraceListItem extends React.Component {
     console.log(123)
   }
   render() {
-  
+    const {shipment: {consignmentNumber, deliveryTown}} = this.props;
+
     var icon = {
       'COLING': require('image!coling'),
       'COLTED': require('image!colted'),
@@ -23,30 +24,31 @@ class TrackTraceListItem extends React.Component {
       const {shipment: {consignmentNumber, originDepotName, originCountry, deliveryTown, destinationCountry, deliveryDueDate, pieceQuantity }} = this.props;
 
       return  <View style={styles.container}>
-                  <View style={styles.card}>
-                      <View style={styles.contentBlock}>
-                          <Text style={styles.header}>FROM</Text>
-                          <Text style={styles.content}>{originDepotName}, {originCountry}</Text>
-                      </View>
-                      <View style={styles.contentBlock}>
-                          <Text style={styles.header}>ESTIMATED DELIVERY IN</Text>
-                          <Text style={styles.content}>{deliveryTown}, {destinationCountry}</Text>
-                          <Text style={styles.content}>{deliveryDueDate}</Text>
-                      </View>
-                      <Image source={icon}
-                             style={{width: 298, height: 200}} />
-                      <View style={styles.contentBlock}>
-                          <Text style={styles.header}>SHIPMENT NUMBER</Text>
-                          <Text style={styles.content}>{consignmentNumber}</Text>
-                      </View>
-                      <View style={styles.contentBlock}>
-                          <Text style={styles.content}>{pieceQuantity} ITEM(S)</Text>
-                      </View>
+                <View style={styles.card}>
+                  <View style={styles.contentBlock}>
+                    <Text style={styles.header}>FROM</Text>
+                    <Text style={styles.content}>{originDepotName}, {originCountry}</Text>
                   </View>
-                  <View style={styles.toggle}>
-                      <Button text="Show details"/>
+                  <View style={styles.contentBlock}>
+                    <Text style={styles.header}>ESTIMATED DELIVERY IN</Text>
+                    <Text style={styles.content}>{deliveryTown}, {destinationCountry}</Text>
+                    <Text style={styles.content}>{deliveryDueDate}</Text>
+                  </View>
+                  <Image source={icon}
+                         style={{width: 298, height: 200}} />
+                  <ProgressIndicator {...{statusData}}/>
 
+                  <View style={styles.contentBlock}>
+                    <Text style={styles.header}>SHIPMENT NUMBER</Text>
+                    <Text style={styles.content}>{consignmentNumber}</Text>
                   </View>
+                  <View style={styles.contentBlock}>
+                    <Text style={styles.content}>{pieceQuantity} ITEM(S)</Text>
+                  </View>
+                </View>
+                <View style={styles.toggle}>
+                  <Button text="Show details"/>
+                </View>
               </View>;
   }
 }
