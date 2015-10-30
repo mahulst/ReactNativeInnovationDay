@@ -11,11 +11,11 @@ class TrackTraceListItem extends React.Component {
     const {shipment: {consignmentNumber, deliveryTown}} = this.props;
 
     var icon = {
-      'COLING': require('image!COLING'),
-      'COLTED': require('image!COLTED'),
-      'DELING': require('image!DELING'),
-      'DELRED': require('image!DELRED'),
-      'INTRAN': require('image!INTRAN'),
+        'COLING' : require('image!coling'),
+        'COLTED' : require('image!colted'),
+        'DELING' : require('image!deling'),
+        'DELRED' : require('image!delred'),
+        'INTRAN' : require('image!intran'),
     }[this.props.shipment.statusData[0].groupCode];
 
     return <View>
