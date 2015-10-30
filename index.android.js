@@ -1,27 +1,18 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- */
-'use strict';
-
 import React from 'react-native';
 const {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View,
-} = React;
+  AppRegistry
+  } = React;
 
-import TrackTraceList from './shared/components/TrackTraceList.js';
-import mockShipments from  './shared/data/mockShipments.json';
+import { Provider} from 'react-redux/native.js';
 
-const ReactNativeInnovationDay = React.createClass({
-  render: () => {
-    const {results: shipments} = mockShipments;
-    return (
-      <TrackTraceList {...{shipments}}/>
-    );
+import store from './shared/data/redux/store.js';
+
+import TrackTraceList from './shared/containers/TrackTraceView.js';
+
+class ReactNativeInnovationDay extends React.Component {
+  render() {
+    return <Provider {...{store}}><TrackTraceList/></Provider>;
   }
-});
+}
 
 AppRegistry.registerComponent('ReactNativeInnovationDay', () => ReactNativeInnovationDay);
