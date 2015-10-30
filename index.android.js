@@ -4,15 +4,15 @@
  */
 'use strict';
 
-var React = require('react-native');
-var {
+import React from 'react-native';
+const {
   AppRegistry,
   StyleSheet,
   Text,
   View,
 } = React;
 
-var ReactNativeInnovationDay = React.createClass({
+const ReactNativeInnovationDay = React.createClass({
   render: function() {
     return (
       <View style={styles.container}>
