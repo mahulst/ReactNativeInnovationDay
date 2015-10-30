@@ -1,5 +1,5 @@
 import React from 'react-native';
-const {StyleSheet, Text, View, TouchableHighlight} = React;
+const {StyleSheet, Text, View, Image, TouchableHighlight} = React;
 
 class TrackTraceListItem extends React.Component {
   constructor() {
@@ -9,6 +9,15 @@ class TrackTraceListItem extends React.Component {
     console.log(123)
   }
   render() {
+  
+    var icon = {
+      'COLING' : require('image!COLING'),
+      'COLTED' : require('image!COLTED'),
+      'DELING' : require('image!DELING'),
+      'DELRED' : require('image!DELRED'),
+      'INTRAN' : require('image!INTRAN'),
+    }[this.props.shipment.statusData[0].groupCode];
+  
     const {shipment: {consignmentNumber, originDepotName, originCountry, deliveryTown, destinationCountry, deliveryDueDate, pieceQuantity }} = this.props;
     return  <View style={styles.container}>
               <View style={styles.card}>
@@ -21,7 +30,8 @@ class TrackTraceListItem extends React.Component {
                   <Text style={styles.content}>{deliveryTown}, {destinationCountry}</Text>
                   <Text style={styles.content}>{deliveryDueDate}</Text>
                 </View>
-                  <Text>Hier komt een progress indicator</Text>
+                <Image source={icon}
+                       style={{width: 300, height: 300}} />
                 <View style={styles.contentBlock}>
                   <Text style={styles.header}>SHIPMENT NUMBER</Text>
                   <Text style={styles.content}>{consignmentNumber}</Text>
