@@ -1,0 +1,830 @@
+{
+  "duplicateConsignments": false,
+  "results": [{
+    "consignmentKey": "WW123456782      VLC  20150717220810",
+    "consignmentNumber": "100100100",
+    "customerReference": "",
+    "summaryCode": "INT",
+    "collectionDate": "17 Jul 2015",
+    "deliveryDueDate": "21 Jul 2015 23:59:00",
+    "signatory": "john williams",
+    "deliveryTown": "VALENCIA",
+    "destinationCountry": "Spain",
+    "originCountry": "Spain",
+    "originDepotCode": "VLC",
+    "originDepotName": "Valencia",
+    "pieceQuantity": "1",
+    "statusData": [{
+      "statusCode": "OD",
+      "statusDescription": "Out For Delivery.",
+      "groupCode": "INTRAN",
+      "localEventDate": "21 Jul 2015",
+      "localEventTime": "09:44:15",
+      "depot": "Valencia"
+    }, {
+      "statusCode": "BSC",
+      "statusDescription": "Delivery Date\\/time Slot Agreed With Receiver",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 Jul 2015",
+      "localEventTime": "12:00:00",
+      "depot": "Valencia"
+    }, {
+      "statusCode": "HW",
+      "statusDescription": "Shipment Arrived At Tnt Location",
+      "groupCode": "INTRAN",
+
+      "localEventDate": "20 Jul 2015",
+      "localEventTime": "11:09:39",
+      "depot": "Valencia"
+    }, {
+      "statusCode": "IR",
+      "statusDescription": "Shipment Received At Tnt Location",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 Jul 2015",
+      "localEventTime": "03:04:20",
+      "depot": "Valencia"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "18 Jul 2015",
+      "localEventTime": "05:25:07",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "OS",
+      "statusDescription": "Shipment In Transit.",
+      "groupCode": "INTRAN",
+      "localEventDate": "17 Jul 2015",
+      "localEventTime": "22:44:00",
+      "depot": "Valencia"
+    }, {
+      "statusCode": "TR",
+      "statusDescription": "Shipment In Transit.",
+      "groupCode": "INTRAN",
+      "localEventDate": "17 Jul 2015",
+      "localEventTime": "22:22:15",
+      "depot": "Valencia"
+    }],
+    "currentStatus": 4
+  }, {
+    "consignmentKey": "WW123456782      SQ1  20150622104007",
+    "consignmentNumber": "100100101",
+    "customerReference": "SQ1  940877",
+    "summaryCode": "DEL",
+    "collectionDate": "22 Jun 2015",
+    "deliveryDueDate": "22 Jun 2015 18:00:00",
+    "signatory": "john williams",
+    "deliveryTown": "SINGAPORE",
+    "destinationCountry": "Singapore",
+    "originCountry": "Thailand",
+    "originDepotCode": "SQ1",
+    "originDepotName": "SQ1",
+    "pieceQuantity": "0",
+    "statusData": [{
+      "statusCode": "OK",
+      "statusDescription": "Shipment Delivered In Good Condition.",
+      "groupCode": "DELRED",
+      "localEventDate": "22 Jun 2015",
+      "localEventTime": "15:57:00",
+      "depot": "SP8"
+    }, {
+      "statusCode": "OK",
+      "statusDescription": "Shipment Delivered In Good Condition.",
+      "groupCode": "DELRED",
+      "localEventDate": "22 Jun 2015",
+      "localEventTime": "11:50:00",
+      "depot": "SP8"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 Jun 2015",
+      "localEventTime": "19:32:39",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 Jun 2015",
+      "localEventTime": "18:27:48",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 Jun 2015",
+      "localEventTime": "15:01:18",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 Jun 2015",
+      "localEventTime": "14:30:16",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 Jun 2015",
+      "localEventTime": "06:42:36",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 Jun 2015",
+      "localEventTime": "06:06:05",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 Jun 2015",
+      "localEventTime": "03:47:15",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 Jun 2015",
+      "localEventTime": "01:28:56",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 Jun 2015",
+      "localEventTime": "00:19:51",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 Jun 2015",
+      "localEventTime": "23:12:22",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 Jun 2015",
+      "localEventTime": "22:08:27",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 Jun 2015",
+      "localEventTime": "21:34:17",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 Jun 2015",
+      "localEventTime": "20:31:22",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 Jun 2015",
+      "localEventTime": "19:59:37",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 Jun 2015",
+      "localEventTime": "19:26:04",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "18 Jun 2015",
+      "localEventTime": "21:58:52",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "18 Jun 2015",
+      "localEventTime": "20:58:25",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "18 Jun 2015",
+      "localEventTime": "17:51:20",
+      "depot": "Arnhem Hub"
+    }],
+    "currentStatus": 5,
+    "deliveryDate": "22 Jun 2015 11:50:00"
+  }, {
+    "consignmentKey": "WW123456782      BLL  20150529084804",
+    "consignmentNumber": "100100103",
+    "customerReference": "POP038419 - 400031818",
+    "summaryCode": "DEL",
+    "collectionDate": "29 May 2015",
+    "deliveryDueDate": "02 Jun 2015 23:59:00",
+    "signatory": "john williams",
+    "deliveryTown": "REDHILL",
+    "destinationCountry": "United Kingdom",
+    "originCountry": "Denmark",
+    "originDepotCode": "BLL",
+    "originDepotName": "Kolding",
+    "pieceQuantity": "2",
+    "statusData": [{
+      "statusCode": "OK",
+      "statusDescription": "Shipment Delivered In Good Condition.",
+      "groupCode": "DELRED",
+      "localEventDate": "03 Jun 2015",
+      "localEventTime": "12:14:00",
+      "depot": "Croydon"
+    }, {
+      "statusCode": "OK",
+      "statusDescription": "Shipment Delivered In Good Condition.",
+      "groupCode": "DELRED",
+      "localEventDate": "01 Jun 2015",
+      "localEventTime": "10:39:00",
+      "depot": "Wiesbaden Zrb"
+    }, {
+      "statusCode": "OD",
+      "statusDescription": "Out For Delivery.",
+      "groupCode": "INTRAN",
+      "localEventDate": "01 Jun 2015",
+      "localEventTime": "07:47:39",
+      "depot": "Wiesbaden Zrb"
+    }, {
+      "statusCode": "CI",
+      "statusDescription": "Shipment Received At Origin Depot.",
+      "groupCode": "INTRAN",
+      "localEventDate": "01 Jun 2015",
+      "localEventTime": "05:01:48",
+      "depot": "Milan Intl Road Hub"
+    }, {
+      "statusCode": "IS",
+      "statusDescription": "Shipment Received At Tnt Location",
+      "groupCode": "INTRAN",
+      "localEventDate": "01 Jun 2015",
+      "localEventTime": "04:45:54",
+      "depot": "Milan Intl Road Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "01 Jun 2015",
+      "localEventTime": "04:00:01",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "IR",
+      "statusDescription": "Shipment Received At Tnt Location",
+      "groupCode": "INTRAN",
+      "localEventDate": "01 Jun 2015",
+      "localEventTime": "03:21:09",
+      "depot": "Wiesbaden Zrb"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "31 May 2015",
+      "localEventTime": "21:03:00",
+      "depot": "Northampton Hub"
+    }, {
+      "statusCode": "TR",
+      "statusDescription": "Shipment In Transit.",
+      "groupCode": "INTRAN",
+      "localEventDate": "31 May 2015",
+      "localEventTime": "12:30:51",
+      "depot": "Helsingborg Hub"
+    }, {
+      "statusCode": "MR",
+      "statusDescription": "Delay Due To Routing Error. Recovery Actions Underway.",
+      "groupCode": "INTRAN",
+
+      "localEventDate": "31 May 2015",
+      "localEventTime": "03:00:26",
+      "depot": "Helsingborg Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 May 2015",
+      "localEventTime": "21:37:52",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 May 2015",
+      "localEventTime": "20:28:22",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 May 2015",
+      "localEventTime": "19:17:55",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 May 2015",
+      "localEventTime": "18:46:31",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 May 2015",
+      "localEventTime": "17:30:08",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 May 2015",
+      "localEventTime": "16:56:47",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 May 2015",
+      "localEventTime": "16:02:05",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 May 2015",
+      "localEventTime": "15:04:00",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 May 2015",
+      "localEventTime": "05:28:07",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 May 2015",
+      "localEventTime": "01:17:34",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "29 May 2015",
+      "localEventTime": "23:38:52",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "29 May 2015",
+      "localEventTime": "00:11:50",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "28 May 2015",
+      "localEventTime": "22:11:48",
+      "depot": "Marki"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "28 May 2015",
+      "localEventTime": "12:08:42",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "28 May 2015",
+      "localEventTime": "06:30:11",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "27 May 2015",
+      "localEventTime": "23:04:16",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "27 May 2015",
+      "localEventTime": "17:09:14",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "27 May 2015",
+      "localEventTime": "08:45:26",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "27 May 2015",
+      "localEventTime": "07:10:33",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "27 May 2015",
+      "localEventTime": "06:06:04",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "27 May 2015",
+      "localEventTime": "05:26:43",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "27 May 2015",
+      "localEventTime": "02:02:52",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "27 May 2015",
+      "localEventTime": "01:06:37",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "27 May 2015",
+      "localEventTime": "00:22:28",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "26 May 2015",
+      "localEventTime": "22:42:47",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "IR",
+      "statusDescription": "Shipment Received At Tnt Location",
+      "groupCode": "INTRAN",
+      "localEventDate": "26 May 2015",
+      "localEventTime": "06:34:57",
+      "depot": "Arnhem"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "26 May 2015",
+      "localEventTime": "05:26:24",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "26 May 2015",
+      "localEventTime": "03:51:49",
+      "depot": "Hannover Road Hub"
+    }],
+    "currentStatus": 5,
+    "deliveryDate": "01 Jun 2015 10:39:00"
+  }, {
+    "consignmentKey": "WW123456782      HH6  20150511094801",
+    "consignmentNumber": "100100104",
+    "customerReference": "",
+    "summaryCode": "DEL",
+    "collectionDate": "11 May 2015",
+    "deliveryDueDate": "12 May 2015 23:59:00",
+    "signatory": "john williams",
+    "deliveryTown": "BASEL",
+    "destinationCountry": "Switzerland",
+    "originCountry": "Netherlands",
+    "originDepotCode": "HH6",
+    "originDepotName": "HH6",
+    "pieceQuantity": "1",
+    "statusData": [{
+      "statusCode": "PA",
+      "statusDescription": "Delivery By Mail. Delivery Confirmation Available On Request",
+      "groupCode": "DELRED",
+      "localEventDate": "11 May 2015",
+      "localEventTime": "15:42:00",
+      "depot": "Zurich"
+    }, {
+      "statusCode": "PA",
+      "statusDescription": "Delivery By Mail. Delivery Confirmation Available On Request",
+      "groupCode": "DELRED",
+      "localEventDate": "11 May 2015",
+      "localEventTime": "15:09:14",
+      "depot": "Zurich"
+    }],
+    "currentStatus": 2
+  }, {
+    "consignmentKey": "WW123456782      SIN  20150429120713",
+    "consignmentNumber": "100100105",
+    "customerReference": "SQ1 212282",
+    "summaryCode": "DEL",
+    "collectionDate": "29 Apr 2015",
+    "deliveryDueDate": "30 Apr 2015 23:59:00",
+    "signatory": "john williams",
+    "deliveryTown": "BANGALORE",
+    "destinationCountry": "India",
+    "originCountry": "Singapore",
+    "originDepotCode": "SIN",
+    "originDepotName": "Singapore",
+    "pieceQuantity": "2",
+    "statusData": [{
+      "statusCode": "OK",
+      "statusDescription": "Shipment Delivered In Good Condition.",
+      "groupCode": "DELRED",
+      "localEventDate": "20 May 2015",
+      "localEventTime": "13:12:00",
+      "depot": "Rotterdam"
+    }, {
+      "statusCode": "RES",
+      "statusDescription": "Consignment Delivered To Residential",
+      "groupCode": "DELRED",
+      "localEventDate": "20 May 2015",
+      "localEventTime": "11:38:00",
+      "depot": "Rotterdam"
+    }, {
+      "statusCode": "OD",
+      "statusDescription": "Out For Delivery.",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 May 2015",
+      "localEventTime": "10:13:02",
+      "depot": "Rotterdam"
+    }, {
+      "statusCode": "IS",
+      "statusDescription": "Shipment Received At Tnt Location",
+      "groupCode": "INTRAN",
+      "localEventDate": "20 May 2015",
+      "localEventTime": "05:09:14",
+      "depot": "Rotterdam"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 May 2015",
+      "localEventTime": "22:09:56",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 May 2015",
+      "localEventTime": "21:38:43",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 May 2015",
+      "localEventTime": "20:55:19",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 May 2015",
+      "localEventTime": "19:34:32",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 May 2015",
+      "localEventTime": "18:49:54",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 May 2015",
+      "localEventTime": "17:12:17",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "IS",
+      "statusDescription": "Shipment Received At Tnt Location",
+      "groupCode": "INTRAN",
+      "localEventDate": "19 May 2015",
+      "localEventTime": "16:12:08",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "HW",
+      "statusDescription": "Shipment Arrived At Tnt Location",
+      "groupCode": "INTRAN",
+
+      "localEventDate": "18 May 2015",
+      "localEventTime": "18:54:38",
+      "depot": "Oslo"
+    }, {
+      "statusCode": "HW",
+      "statusDescription": "Shipment Arrived At Tnt Location",
+      "groupCode": "INTRAN",
+
+      "localEventDate": "18 May 2015",
+      "localEventTime": "14:13:53",
+      "depot": "Oslo"
+    }, {
+      "statusCode": "HW",
+      "statusDescription": "Shipment Arrived At Tnt Location",
+      "groupCode": "INTRAN",
+
+      "localEventDate": "18 May 2015",
+      "localEventTime": "09:11:41",
+      "depot": "Oslo"
+    }, {
+      "statusCode": "OD",
+      "statusDescription": "Out For Delivery.",
+      "groupCode": "INTRAN",
+      "localEventDate": "18 May 2015",
+      "localEventTime": "09:00:34",
+      "depot": "Stockholm"
+    }, {
+      "statusCode": "IS",
+      "statusDescription": "Shipment Received At Tnt Location",
+      "groupCode": "INTRAN",
+      "localEventDate": "17 May 2015",
+      "localEventTime": "15:03:13",
+      "depot": "Orebro"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "12 May 2015",
+      "localEventTime": "01:47:37",
+      "depot": "Helsingborg Hub"
+    }, {
+      "statusCode": "HW",
+      "statusDescription": "Shipment Arrived At Tnt Location",
+      "groupCode": "INTRAN",
+      "localEventDate": "11 May 2015",
+      "localEventTime": "09:11:01",
+      "depot": "Oslo"
+    }, {
+      "statusCode": "IS",
+      "statusDescription": "Shipment Received At Tnt Location",
+      "groupCode": "INTRAN",
+      "localEventDate": "10 May 2015",
+      "localEventTime": "19:42:28",
+      "depot": "Northampton Hub"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "10 May 2015",
+      "localEventTime": "19:07:00",
+      "depot": "Northampton Hub"
+    }, {
+      "statusCode": "OD",
+      "statusDescription": "Out For Delivery.",
+      "groupCode": "INTRAN",
+      "localEventDate": "09 May 2015",
+      "localEventTime": "13:07:58",
+      "depot": "LD2"
+    }, {
+      "statusCode": "HW",
+      "statusDescription": "Shipment Arrived At Tnt Location",
+      "groupCode": "INTRAN",
+
+      "localEventDate": "08 May 2015",
+      "localEventTime": "18:43:34",
+      "depot": "Oslo"
+    }, {
+      "statusCode": "WAN",
+      "statusDescription": "Held Awaiting Receiver Details. Follow Up Actions Underway",
+      "groupCode": null,
+      "localEventDate": "08 May 2015",
+      "localEventTime": "13:21:56",
+      "depot": "Oslo"
+    }, {
+      "statusCode": "OD",
+      "statusDescription": "Out For Delivery.",
+      "groupCode": "INTRAN",
+      "localEventDate": "08 May 2015",
+      "localEventTime": "09:48:01",
+      "depot": "Oslo"
+    }, {
+      "statusCode": "IR",
+      "statusDescription": "Shipment Received At Tnt Location",
+      "groupCode": "INTRAN",
+      "localEventDate": "08 May 2015",
+      "localEventTime": "06:59:23",
+      "depot": "Oslo"
+    }, {
+      "statusCode": "TR",
+      "statusDescription": "Shipment In Transit.",
+      "groupCode": "INTRAN",
+      "localEventDate": "08 May 2015",
+      "localEventTime": "05:57:55",
+      "depot": "Kolding"
+    }, {
+      "statusCode": "IS",
+      "statusDescription": "Shipment Received At Tnt Location",
+      "groupCode": "INTRAN",
+      "localEventDate": "08 May 2015",
+      "localEventTime": "05:55:36",
+      "depot": "Kolding"
+    }, {
+      "statusCode": "AS",
+      "statusDescription": "Shipment Received At Transit Point.",
+      "groupCode": "INTRAN",
+      "localEventDate": "07 May 2015",
+      "localEventTime": "18:43:36",
+      "depot": "Garonor Road Hub"
+    }, {
+      "statusCode": "FDC",
+      "statusDescription": "Shipment Damaged. Held Awaiting Sender Instructions.",
+      "groupCode": "INTRAN",
+
+      "localEventDate": "07 May 2015",
+      "localEventTime": "14:11:09",
+      "depot": "Lisbon"
+    }, {
+      "statusCode": "WDC",
+      "statusDescription": "Shipment Damaged. Held Awaiting Sender Instructions.",
+      "groupCode": "INTRAN",
+
+      "localEventDate": "07 May 2015",
+      "localEventTime": "08:34:44",
+      "depot": "Lisbon"
+    }, {
+      "statusCode": "PAC",
+      "statusDescription": "Pre-arrival Customs Clearance In Progress",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 Apr 2015",
+      "localEventTime": "16:19:00",
+      "depot": "IS8"
+    }, {
+      "statusCode": "OS",
+      "statusDescription": "Shipment In Transit.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 Apr 2015",
+      "localEventTime": "16:01:00",
+      "depot": "Singapore"
+    }, {
+      "statusCode": "TR",
+      "statusDescription": "Shipment In Transit.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 Apr 2015",
+      "localEventTime": "15:59:47",
+      "depot": "Singapore"
+    }, {
+      "statusCode": "CI",
+      "statusDescription": "Shipment Received At Origin Depot.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 Apr 2015",
+      "localEventTime": "15:49:02",
+      "depot": "Singapore"
+    }, {
+      "statusCode": "IS",
+      "statusDescription": "Shipment Received At Tnt Location",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 Apr 2015",
+      "localEventTime": "15:43:13",
+      "depot": "Singapore"
+    }, {
+      "statusCode": "WDC",
+      "statusDescription": "Shipment Damaged. Held Awaiting Sender Instructions.",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 Apr 2015",
+      "localEventTime": "04:09:52",
+      "depot": "Arnhem Hub"
+    }, {
+      "statusCode": "HH",
+      "statusDescription": "Held At Tnt Location, Awaiting Next Departure",
+      "groupCode": "INTRAN",
+      "localEventDate": "30 Apr 2015",
+      "localEventTime": "02:10:00",
+      "depot": "Singapore"
+    }, {
+      "statusCode": "PU",
+      "statusDescription": "Shipment Collected From Customer",
+      "groupCode": "INTRAN",
+      "localEventDate": "29 Apr 2015",
+      "localEventTime": "11:02:49",
+      "depot": "SQ1"
+    }],
+    "currentStatus": 5,
+    "deliveryDate": "20 May 2015 11:38:00"
+  }]
+}
