@@ -1,0 +1,3 @@
+rootProject.name = 'ReactNativeInnovationDay'
+
+include ':app'
