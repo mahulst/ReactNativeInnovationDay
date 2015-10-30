@@ -1,5 +1,10 @@
 import React from 'react-native';
 const {StyleSheet, Text, View, Image, TouchableHighlight} = React;
+//import  {MKButton} from 'react-native-material-kit';
+
+//const ColoredRaisedButton = MKButton.coloredButton()
+//  .withText('BUTTON')
+//  .build();
 
 class TrackTraceListItem extends React.Component {
   constructor() {
@@ -11,43 +16,42 @@ class TrackTraceListItem extends React.Component {
   render() {
   
     var icon = {
-      'COLING' : require('image!COLING'),
-      'COLTED' : require('image!COLTED'),
-      'DELING' : require('image!DELING'),
-      'DELRED' : require('image!DELRED'),
-      'INTRAN' : require('image!INTRAN'),
+        'COLING' : require('image!coling'),
+        'COLTED' : require('image!colted'),
+        'DELING' : require('image!deling'),
+        'DELRED' : require('image!delred'),
+        'INTRAN' : require('image!intran')
     }[this.props.shipment.statusData[0].groupCode];
-  
-    const {shipment: {consignmentNumber, originDepotName, originCountry, deliveryTown, destinationCountry, deliveryDueDate, pieceQuantity }} = this.props;
-    return  <View style={styles.container}>
-              <View style={styles.card}>
-                <View style={styles.contentBlock}>
-                  <Text style={styles.header}>FROM</Text>
-                  <Text style={styles.content}>{originDepotName}, {originCountry}</Text>
-                </View>
-                <View style={styles.contentBlock}>
-                  <Text style={styles.header}>ESTIMATED DELIVERY IN</Text>
-                  <Text style={styles.content}>{deliveryTown}, {destinationCountry}</Text>
-                  <Text style={styles.content}>{deliveryDueDate}</Text>
-                </View>
-                <Image source={icon}
-                       style={{width: 298, height: 200}} />
-                <View style={styles.contentBlock}>
-                  <Text style={styles.header}>SHIPMENT NUMBER</Text>
-                  <Text style={styles.content}>{consignmentNumber}</Text>
-                </View>
-                <View style={styles.contentBlock}>
-                  <Text style={styles.content}>{pieceQuantity} ITEM(S)</Text>
-                </View>
-              </View>
-              <View style={styles.toggle}>
-                <TouchableHighlight onPress={this.pressShowDetails}>
-                  <View>
-                    <Text style={styles.toggleButton}>Show Details</Text>
+    
+      return  <View style={styles.container}>
+                  <View style={styles.card}>
+                      <View style={styles.contentBlock}>
+                          <Text style={styles.header}>FROM</Text>
+                          <Text style={styles.content}>{originDepotName}, {originCountry}</Text>
+                      </View>
+                      <View style={styles.contentBlock}>
+                          <Text style={styles.header}>ESTIMATED DELIVERY IN</Text>
+                          <Text style={styles.content}>{deliveryTown}, {destinationCountry}</Text>
+                          <Text style={styles.content}>{deliveryDueDate}</Text>
+                      </View>
+                      <Image source={icon}
+                             style={{width: 298, height: 200}} />
+                      <View style={styles.contentBlock}>
+                          <Text style={styles.header}>SHIPMENT NUMBER</Text>
+                          <Text style={styles.content}>{consignmentNumber}</Text>
+                      </View>
+                      <View style={styles.contentBlock}>
+                          <Text style={styles.content}>{pieceQuantity} ITEM(S)</Text>
+                      </View>
                   </View>
-                </TouchableHighlight>
-              </View>
-            </View>;
+                  <View style={styles.toggle}>
+                      <TouchableHighlight onPress={this.pressShowDetails}>
+                          <View>
+                              <Text style={styles.toggleButton}>Show Details</Text>
+                          </View>
+                      </TouchableHighlight>
+                  </View>
+              </View>;
   }
 }
 
