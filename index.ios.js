@@ -4,50 +4,24 @@
  */
 'use strict';
 
-var React = require('react-native');
-var {
+import React from 'react-native';
+const {
   AppRegistry,
   StyleSheet,
   Text,
   View,
-} = React;
+  } = React;
 
-var ReactNativeInnovationDay = React.createClass({
-  render: function() {
+import TrackTraceList from './shared/components/TrackTraceList.js';
+import mockShipments from  './shared/data/mockShipments.json';
+
+const ReactNativeInnovationDay = React.createClass({
+  render: () => {
+    const {results: shipments} = mockShipments;
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+      <TrackTraceList {...{shipments}}/>
     );
   }
-});
-
-var styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
 });
 
 AppRegistry.registerComponent('ReactNativeInnovationDay', () => ReactNativeInnovationDay);
