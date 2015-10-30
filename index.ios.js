@@ -11,7 +11,7 @@ import TrackTraceList from './shared/containers/TrackTraceView.js';
 
 class ReactNativeInnovationDay extends React.Component {
   render() {
-    return <Provider {...{store}}><TrackTraceList/></Provider>;
+    return <Provider {...{store}}>{() => <TrackTraceList />}</Provider>;
   }
 }
 
