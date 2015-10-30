@@ -1,10 +1,8 @@
 import React from 'react-native';
 const {StyleSheet, Text, View, Image, TouchableHighlight} = React;
-//import  {MKButton} from 'react-native-material-kit';
+import  {MKButton} from 'react-native-material-kit';
 
-//const ColoredRaisedButton = MKButton.coloredButton()
-//  .withText('BUTTON')
-//  .build();
+import Button from './Button.js';
 
 class TrackTraceListItem extends React.Component {
   constructor() {
@@ -16,13 +14,14 @@ class TrackTraceListItem extends React.Component {
   render() {
   
     var icon = {
-        'COLING' : require('image!coling'),
-        'COLTED' : require('image!colted'),
-        'DELING' : require('image!deling'),
-        'DELRED' : require('image!delred'),
-        'INTRAN' : require('image!intran')
+      'COLING': require('image!coling'),
+      'COLTED': require('image!colted'),
+      'DELING': require('image!deling'),
+      'DELRED': require('image!delred'),
+      'INTRAN': require('image!intran')
     }[this.props.shipment.statusData[0].groupCode];
-    
+      const {shipment: {consignmentNumber, originDepotName, originCountry, deliveryTown, destinationCountry, deliveryDueDate, pieceQuantity }} = this.props;
+
       return  <View style={styles.container}>
                   <View style={styles.card}>
                       <View style={styles.contentBlock}>
@@ -45,11 +44,8 @@ class TrackTraceListItem extends React.Component {
                       </View>
                   </View>
                   <View style={styles.toggle}>
-                      <TouchableHighlight onPress={this.pressShowDetails}>
-                          <View>
-                              <Text style={styles.toggleButton}>Show Details</Text>
-                          </View>
-                      </TouchableHighlight>
+                      <Button text="Show details"/>
+
                   </View>
               </View>;
   }
