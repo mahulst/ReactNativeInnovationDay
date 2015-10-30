@@ -1,4 +1,5 @@
 import React from 'react-native';
+import TrackTraceListItem from './TrackTraceListItem';
 const {ListView, StyleSheet, Text} = React;
 
 class TrackTraceList extends React.Component {
@@ -15,7 +16,7 @@ class TrackTraceList extends React.Component {
 
   render() {
     return ( <ListView dataSource={this.state.dataSource}
-                       renderRow={({consignmentNumber}) => <Text>{consignmentNumber}</Text>}
+                       renderRow={shipment => <TrackTraceListItem {...{shipment}}/>}
       />
     );
   }
