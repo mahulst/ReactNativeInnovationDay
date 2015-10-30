@@ -31,7 +31,7 @@ class TrackTraceListItem extends React.Component {
                   <Text style={styles.content}>{deliveryDueDate}</Text>
                 </View>
                 <Image source={icon}
-                       style={{width: 300, height: 300}} />
+                       style={{width: 298, height: 200}} />
                 <View style={styles.contentBlock}>
                   <Text style={styles.header}>SHIPMENT NUMBER</Text>
                   <Text style={styles.content}>{consignmentNumber}</Text>
@@ -62,7 +62,6 @@ var styles = StyleSheet.create({
     borderColor: '#dfdfdf',
     borderBottomWidth: 0,
     width: 300,
-    padding: 18,
     margin: 20,
     marginBottom: 0
   },
@@ -73,7 +72,8 @@ var styles = StyleSheet.create({
     paddingLeft: 0
   },
   contentBlock: {
-    marginBottom: 18
+    padding: 18,
+    marginBottom: 8
   },
   content: {
     color: '#333f48',
